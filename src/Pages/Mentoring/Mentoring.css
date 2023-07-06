@@ -1,0 +1,39 @@
+.nav-item svg{
+    color: var(--Secondary);
+}
+#belal , #cetificate ,#location,#experience  ,#hired ,#paid ,#duration ,#perone ,.parag ,.tit {
+    color: var(--Secondary);
+}
+.part-two {
+    width: 90% !important;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+}
+#iconPersonOne {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(143, 143, 143) ;
+    border-radius: 50%;
+}
+#profileimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(175, 174, 174);
+}
+#viewprofile button{
+    border-radius: 20px;
+    background-color: rgb(150, 150, 150);
+    margin:30px auto;
+    padding: 5px 10px;
+}
+@media (max-width : 767px) {
+    .profile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #viewprofile button{
+        width: 250px;
+        background-color: var(--btn_primary);
+    }
+}
