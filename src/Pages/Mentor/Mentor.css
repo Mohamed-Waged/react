@@ -1,0 +1,51 @@
+.head {
+    background-color: var(--list_color);
+}
+.head input{
+    color: #fff !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.head input::placeholder{
+    color: #fff;
+}
+.head p{
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+}
+.star svg{
+    color: var(--Primary) ;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.child1 , .child2 , .child3{
+    background-color: var(--Primary);
+}
+.parent5{
+    margin-left: -10px;
+    margin-top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.child1{
+    width: 50px;
+    height: 4px;
+    border-radius: 13px;
+}
+.child2{
+    width: 35px;
+    height: 4px;
+    margin: 7px 0 0 8px;
+    border-radius: 13px; 
+}
+.child3{
+    width: 15px;
+    height: 4px;
+    margin: 7px 0 0 18px;
+    border-radius: 13px;
+}
+.navbar-toggler-icon{
+    background-image: none !important ;
+}

@@ -27,6 +27,9 @@
     margin:30px auto;
     padding: 5px 10px;
 }
+ul{
+    list-style-type: disc !important;
+}
 @media (max-width : 767px) {
     .profile{
         display: flex;
